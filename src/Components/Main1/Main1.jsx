@@ -24,7 +24,7 @@ const Main1 = () => {
     <div className='w-1/2 phone:w-1/2 phone:h-[20vh]  phone:pl-0 phone:mt-0  h-[50vh] mt-[17%] items-center pl-[100px] justify-center '>
     <span className='w-[90%] phone:w-[90%] phone:h-[30px]  h-[100px]  flex'>
     <h1 className=' font-bold text-7xl phone:text-xl '>Best</h1>
-<marquee behavior="" direction="Right">    <h1 className='text-pink-600 phone:text-xl  font-bold text-7xl'>Frontend</h1></marquee>
+<marquee behavior="" direction="right">    <h1 className='text-pink-600 phone:text-xl  font-bold text-7xl'>Frontend</h1></marquee>
     </span>
     <h1 className='text-6xl font-bold text-pink-600 phone:text-xl     '>Web Development</h1>
     <h1 className='text-6xl phone:text-xl font-bold'>Technologies</h1>
@@ -35,7 +35,7 @@ const Main1 = () => {
     </div>
     </div>
     </div>
-    <div id='about' className='w-full phone:flex phone:flex-col phone:w-full phone:h-[140vh] phone:border-b-2 phone:border-white h-[130vh] border-b-2 border-white bg-slate-400 '>
+    <div id='about' className='w-full phone:flex phone:flex-col phone:w-full phone:h-[130vh] phone:border-b-2 phone:border-white h-[130vh] border-b-2 border-white bg-slate-400 '>
     <div className='w-full phone:w-full phone:h-[50px] h-[100px] phone:flex phone:flex-col phone:items-center phone:justify-center flex flex-col items-center justify-center  '>
 <h1 className='phone:text-xl font-bold text-5xl '>About Us</h1>
     <h1 className='text-5xl phone:text-xl '>How website design About works</h1>
