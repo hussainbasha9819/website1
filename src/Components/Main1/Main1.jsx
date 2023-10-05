@@ -3,164 +3,169 @@ import React from 'react'
 const Main1 = () => {
   return (
     <>
-    <div className='w-full h-[110vh] flex flex-col  bg'   >
-    <img className='w-full h-[110vh] absolute z-0 opacity-70  ' src="src\assets\img333.jpg" alt="" />
-    <div className='w-full h-28 z-10  flex border-b-[1px]  border-white   '>
-    <div className='w-[30%] h-28 flex items-center justify-center '>
-    <h1 className='text-6xl font-bold '>Logo</h1>
+    <div className='w-full phone:w-full phone:h-[65vh] phone:flex phone:flex-col phone:border-b-2 phone:border-white  h-[110vh] flex flex-col border-b-2 border-white bg-gray-400   '   >
+    <div className='w-full h-28 z-10 phone:w-full  phone:h-[80px] phone:flex phone:border-b-[1px] phone:border-white  flex border-b-[1px]  border-white   '>
+    <div className='w-[30%] phone:w-[20%] phone:h-[80px] phone:flex phone:items-center phone:justify-center h-28 flex items-center justify-center '>
+    <h1 className='text-6xl phone:text-2xl font-bold '>Logo</h1>
     </div>
-    <div className='w-[70%] h-28 bg flex items-center justify-evenly   '>
-    <span className='text-2xl text-blue-800 hover:text-black hover:border-b-2 hover:border-teal-300 cursor-pointer hover:-translate-y-2 font-semibold hover:font-semibold hover:scale-75 hover:text-2xl  '>Home</span>
+    <div className='w-[70%] h-28 phone:w-[80%] phone:h-[80px] phone:flex phone:items-center phone:justify-evenly  flex items-center justify-evenly   '>
+    <span className='text-2xl phone:text-xs text-blue-800 hover:text-black hover:border-b-2 hover:border-teal-300 cursor-pointer hover:-translate-y-2 font-semibold hover:font-semibold hover:scale-75 hover:text-2xl  '>Home</span>
     <a href="#about">
-    <span className='text-2xl text-white hover:text-black hover:border-b-2 hover:border-teal-300 cursor-pointer hover:-translate-y-2 font-semibold hover:font-semibold hover:scale-75 hover:text-2xl  '>About</span></a>
+    <span className='text-2xl phone:text-xs text-gray-600 hover:text-black hover:border-b-2 hover:border-teal-300 cursor-pointer hover:-translate-y-2 font-semibold hover:font-semibold hover:scale-75 hover:text-2xl  '>About</span></a>
     <a href="#contact">
-    <span className='text-2xl text-white hover:text-black hover:border-b-2 hover:border-teal-300 cursor-pointer hover:-translate-y-2 font-semibold hover:font-semibold hover:scale-75 hover:text-2xl  '>Contact</span></a>
+    <span className='text-2xl phone:text-xs text-gray-600 hover:text-black hover:border-b-2 hover:border-teal-300 cursor-pointer hover:-translate-y-2 font-semibold hover:font-semibold hover:scale-75 hover:text-2xl  '>Contact</span></a>
     <a href="#service">
-    <span className='text-2xl text-white hover:text-black hover:border-b-2 hover:border-teal-300 cursor-pointer hover:-translate-y-2 font-semibold hover:font-semibold hover:scale-75 hover:text-2xl  '>Service</span></a>
+    <span className='text-2xl phone:text-xs text-gray-600 hover:text-black hover:border-b-2 hover:border-teal-300 cursor-pointer hover:-translate-y-2 font-semibold hover:font-semibold hover:scale-75 hover:text-2xl  '>Service</span></a>
     <a href="#pricing">
-    <span className='text-2xl text-white hover:text-black hover:border-b-2 hover:border-teal-300 cursor-pointer hover:-translate-y-2 font-semibold hover:font-semibold hover:scale-75 hover:text-2xl  '>Pricing</span></a>
+    <span className='text-2xl phone:text-xs text-gray-600 hover:text-black hover:border-b-2 hover:border-teal-300 cursor-pointer hover:-translate-y-2 font-semibold hover:font-semibold hover:scale-75 hover:text-2xl  '>Pricing</span></a>
     </div>
     </div>
-    <div className='w-full h-[90vh] z-10  flex '>
-    <div className='w-1/2 h-[50vh] mt-[17%] items-center pl-[100px] justify-center '>
-    <span className='w-[90%] h-[100px]  flex'>
-    <h1 className=' font-bold text-7xl '>Best</h1>
-    <h1 className='text-pink-600 animate-pulse font-bold text-7xl'>Frontend</h1>
+    <div className='w-full phone:w-full phone:h-[55vh]  phone:flex phone:flex-col-reverse phone:items-center phone:justify-center h-[90vh] z-10  flex '>
+    <div className='w-1/2 phone:w-1/2 phone:h-[20vh]  phone:pl-0 phone:mt-0  h-[50vh] mt-[17%] items-center pl-[100px] justify-center '>
+    <span className='w-[90%] phone:w-[90%] phone:h-[30px]  h-[100px]  flex'>
+    <h1 className=' font-bold text-7xl phone:text-xl '>Best</h1>
+<marquee behavior="" direction="Right">    <h1 className='text-pink-600 phone:text-xl  font-bold text-7xl'>Frontend</h1></marquee>
     </span>
-    <h1 className='text-6xl font-bold text-pink-600 animate-pulse    '>Web Development</h1>
-    <h1 className='text-6xl font-bold'>Technologies</h1>
+    <h1 className='text-6xl font-bold text-pink-600 phone:text-xl     '>Web Development</h1>
+    <h1 className='text-6xl phone:text-xl font-bold'>Technologies</h1>
     </div>
-    <div className='w-1/2 h-[90vh] '></div>
-    </div>
-    </div>
-    <div id='about' className='w-full h-[120vh] bg-slate-500 '>
-    <div className='w-full h-[60px] flex items-center justify-center  '>
-    <h1 className='text-5xl'>How website design About works</h1>
-    </div>
-    <div className='w-full h-[100vh]  flex items-center justify-evenly  '>
-    <div className='w-[30%] h-[500px]  flex flex-col items-center ju '>
-    <img className='w[80%] h-80  ' src="https://cdn1.designhill.com/assets/dh/images/work-one.png" alt="" />
-    <h1 className='text-2xl font-semibold '>Fill out your design brief and post a</h1>
-    <h1 className='text-2xl font-semibold '>project</h1>
-    <span className='text-lg text-slate-100 font-medium'>Describe your business, answer a few simple</span>
-    <span className='text-lg text-slate-100 font-medium'>questions and choose how much you'd like to</span>
-    <span className='text-lg text-slate-100 font-medium'>pay.</span>
-    </div>
-    <div className='w-[30%] h-[500px]  flex flex-col items-center ju '>
-    <img className='w[80%] h-80  ' src="https://cdn1.designhill.com/assets/dh/images/work-two.png" alt="" />
-    <h1 className='text-2xl font-semibold '>Dozens of designers compete for</h1>
-    <h1 className='text-2xl font-semibold '>your business</h1>
-    <span className='text-lg text-slate-100 font-medium'>Receive Dozens of designs made exclusively for</span>
-    <span className='text-lg text-slate-100 font-medium'>you, provide feedback and get as many revisions</span>
-    <span className='text-lg text-slate-100 font-medium'> as you want.</span>
-    </div>
-    <div className='w-[30%] h-[500px]  flex flex-col items-center ju '>
-    <img className='w[80%] h-80  ' src="https://cdn1.designhill.com/assets/dh/images/work-three.png" alt="" />
-    <h1 className='text-2xl font-semibold '>Pick the favorite, get complete</h1>
-    <h1 className='text-2xl font-semibold '>ownership and download high</h1>
-    <h1 className='text-2xl font-semibold '>quality files</h1>
-    <span className='text-lg text-slate-100 font-medium'>Choose the design you love the most, get all</span>
-    <span className='text-lg text-slate-100 font-medium'>source files and complete copyright and</span>
-    <span className='text-lg text-slate-100 font-medium'>wnership of the design.</span>
+    <div className='w-1/2 phone:w-1/2 phone:h-[30vh] h-[90vh]  flex items-center justify-center '>
+    <img className='w-[90%] h-[85vh] phone:w-full  phone:h-[30vh] ' src="https://www.cdmi.in/courses@2x/web-developments.webp" alt="" />
+
     </div>
     </div>
-    <div className='w-full h-[65px]  flex items-center justify-center '>
-    <button className='w-[25%] h-[60px] bg-green-500 rounded-full hover:-translate-y-2 text-white text-2xl font-semibold hover:bg-black hover:shadow-sm hover:shadow-white '>
+    </div>
+    <div id='about' className='w-full phone:flex phone:flex-col phone:w-full phone:h-[140vh] phone:border-b-2 phone:border-white h-[130vh] border-b-2 border-white bg-slate-400 '>
+    <div className='w-full phone:w-full phone:h-[50px] h-[100px] phone:flex phone:flex-col phone:items-center phone:justify-center flex flex-col items-center justify-center  '>
+<h1 className='phone:text-xl font-bold text-5xl '>About Us</h1>
+    <h1 className='text-5xl phone:text-xl '>How website design About works</h1>
+    </div>
+    <div className='w-full h-[100vh] phone:w-full phone:h-[126vh] phone:gap-1   phone:flex phone:flex-col phone:items-center phone:justify-center   flex items-center justify-evenly  '>
+    <div className='w-[30%] phone:w-[80%] phone:h-[250px]  phone:flex phone:flex-col phone:items-center  h-[500px]  flex flex-col items-center '>
+    <img className='w[80%] h-80 phone:w-[70%] phone:h-[100px]  ' src="https://cdn1.designhill.com/assets/dh/images/work-one.png" alt="" />
+    <h1 className='text-2xl phone:text-base font-semibold '>Fill out your design brief and post a</h1>
+    <h1 className='text-2xl phone:text-base font-semibold '>project</h1>
+    <span className='text-lg text-slate-100 phone:text-[14px] font-medium'>Describe your business, answer a few simple</span>
+    <span className='text-lg text-slate-100 phone:text-[14px] font-medium'>questions and choose how much you'd like to</span>
+    <span className='text-lg text-slate-100 phone:text-[14px] font-medium'>pay.</span>
+    </div>
+    <div className='w-[30%] phone:w-[80%] phone:h-[250px]  phone:flex phone:flex-col phone:items-center h-[500px]  flex flex-col items-center ju '>
+    <img className='w[80%] h-80 phone:w-[70%] phone:h-[100px]  ' src="https://cdn1.designhill.com/assets/dh/images/work-two.png" alt="" />
+    <h1 className='text-2xl phone:text-base font-semibold '>Dozens of designers compete for</h1>
+    <h1 className='text-2xl phone:text-base font-semibold '>your business</h1>
+    <span className='text-lg text-slate-100 phone:text-[13.5px] font-medium'>Receive Dozens of designs made exclusively for</span>
+    <span className='text-lg text-slate-100 phone:text-[13.5px] font-medium'>you, provide feedback and get as many revisions</span>
+    <span className='text-lg text-slate-100 phone:text-[14px] font-medium'> as you want.</span>
+    </div>
+    <div className='w-[30%] phone:w-[80%] phone:h-[250px]  phone:flex phone:flex-col phone:items-center h-[500px]  flex flex-col items-center ju '>
+    <img className='w[80%] h-80 phone:w-[70%] phone:h-[100px]  ' src="https://cdn1.designhill.com/assets/dh/images/work-three.png" alt="" />
+    <h1 className='text-2xl phone:text-base font-semibold '>Pick the favorite, get complete</h1>
+    <h1 className='text-2xl phone:text-base font-semibold '>ownership and download high</h1>
+    <h1 className='text-2xl phone:text-base font-semibold '>quality files</h1>
+    <span className='text-lg text-slate-100 phone:text-[14px] font-medium'>Choose the design you love the most, get all</span>
+    <span className='text-lg text-slate-100 phone:text-[14px] font-medium'>source files and complete copyright and</span>
+    <span className='text-lg text-slate-100 phone:text-[14px] font-medium'>wnership of the design.</span>
+    </div>
+    </div>
+    <div className='w-full h-[60px] phone:flex phone:w-full phone:h-[60px] phone:items-center phone:justify-center  flex items-center justify-center '>
+    <button className='w-[25%] h-[55px] phone:w-[40%] phone:h-[50px] phone:text-[14px] phone:hover:bg-black phone:hover:shadow-sm phone:hover:shadow-white bg-green-500 rounded-full hover:-translate-y-2 text-white text-2xl font-semibold hover:bg-black hover:shadow-sm hover:shadow-white '>
     <a href="https://about1.vercel.app/"> GET STARTED NOW</a></button>
     </div>
     </div>
-    <div id='contact' className='w-full h-[70vh] bg-slate-500 flex flex-col  '>
-    <div className='w-full h-[150px]  flex flex-col items-center justify-center '>
-    <h1 className='text-5xl font-bold '>Contact us </h1>
-    <span className='text-xl font-medium'>A Good idiom for kids is "it's raining cats and dogs." Kids know what both cats and dogs are from an </span>
-    <span className='text-xl font-medium'>Early age so they can understand it's literally raining cats and dogs</span>
+    <div id='contact' className='w-full phone:flex phone:w-full phone:h-[90vh]  h-[70vh] border-b-2 border-white bg-slate-400 flex flex-col  '>
+
+
+    <div className='w-full h-[150px] phone:w-full phone:h-[15vh]  phone:flex phone:flex-col phone:items-center phone:justify-center  flex flex-col items-center justify-center '>
+    <h1 className='text-5xl phone:text-2xl font-bold '>Contact us </h1>
+    <span className='text-xl phone:text-[13.8px]  font-medium'>A Good idiom for kids is "it's raining cats and dogs." Kids  </span>
+    <span className='text-xl phone:text-[13.8px] font-medium'>Early age so they can understand it's </span>
     </div>
-    <div className='w-full h-screen animate-pulse  flex items-center justify-evenly '>
-    <div className='w-[28%] h-[220px] border-2 border-slate-900 rounded-2xl flex flex-col items-center justify-evenly '>
-    <span className='w-16 h-16 bg-neutral-600 rounded-full flex items-center justify-center text-3xl  '>
+    <div className='w-full h-screen phone:w-full phone:h-[68vh] phone:flex phone:pt-4 phone:flex-col phone:gap-1 phone:items-center phone:justify-evenly animate-pulse  flex items-center justify-evenly '>
+    <div className='w-[28%] phone:w-[50%] phone:h-[150px]  h-[220px] border-2 border-slate-900 rounded-2xl flex flex-col items-center justify-evenly '>
+    <span className='w-16 h-16 phone:w-12 phone:h-12 bg-neutral-600 rounded-full flex items-center justify-center phone:text-xl text-3xl  '>
     <a href="https://contact-seven-sigma.vercel.app/">
     <i className="fa-solid fa-phone text-orange-700 "></i></a>
     </span>
-    <h1 className=' text-3xl  font-bold ' >Phone</h1>
-    <p className=' text-2xl  '>(007)095-6890 </p>
+    <h1 className=' text-3xl phone:text-xl  font-bold ' >Phone</h1>
+    <p className=' text-2xl phone:text-lg  '>(007)095-6890 </p>
     </div>
-    <div className='w-[28%] h-[220px] border-2 border-slate-900 rounded-2xl flex flex-col items-center justify-evenly '>
-    <span className='w-16 h-16 bg-neutral-600 rounded-full flex items-center justify-center text-3xl '>
+    <div className='w-[28%] phone:w-[50%] phone:h-[150px] h-[220px] border-2 border-slate-900 rounded-2xl flex flex-col items-center justify-evenly '>
+    <span className='w-16 h-16 phone:w-12 phone:h-12 bg-neutral-600 rounded-full flex items-center justify-center phone:text-xl text-3xl '>
     <a href="https://contact-seven-sigma.vercel.app/">
     <i class="fa-solid fa-envelope text-orange-700 " ></i></a>
     </span>
-    <h1 className=' text-3xl  font-bold ' >Email</h1>
-    <p className=' text-2xl  '>username@gmail.com</p>
+    <h1 className=' text-3xl phone:text-xl  font-bold ' >Email</h1>
+    <p className=' text-2xl phone:text-lg  '>username@gmail.com</p>
     </div>
-    <div className='w-[28%] h-[220px] border-2 border-slate-900 rounded-2xl flex flex-col items-center justify-center gap-3 '>
-    <span className='w-16 h-16 bg-neutral-600 rounded-full flex items-center justify-center text-3xl '>
+    <div className='w-[28%] phone:w-[50%] phone:h-[150px] phone:gap-1 h-[220px] border-2 border-slate-900 rounded-2xl flex flex-col items-center justify-center gap-3 '>
+    <span className='w-16 h-16 phone:w-12 phone:h-12 bg-neutral-600 rounded-full flex items-center justify-center phone:text-xl text-3xl '>
     <a href="https://contact-seven-sigma.vercel.app/">
     <i class="fa-solid fa-location-dot text-orange-700 "></i></a>
     </span>
-    <h1 className='text-3xl  font-bold'>Address</h1>
-    <p>13420-Oak Street, New </p>
-    <p>York City(9134200) </p>
+    <h1 className='text-3xl phone:text-xl  font-bold'>Address</h1>
+    <p className='phone:text-[15px] '>13420-Oak Street, New </p>
+    <p className='phone:text-[15px] '>York City(9134200) </p>
     </div>
     </div>
     </div>
-    <div id='service' className='w-full h-[100vh] bg-slate-500 flex flex-col '>
-      <div className='w-full h-[100px] flex items-center justify-center  '>
-        <h1 className='text-5xl font-bold'> Our Serives</h1>
+    <div id='service' className='w-full phone:w-full phone:h-[110vh] phone:flex phone:flex-col  h-[100vh] border-b-2 border-white bg-slate-400 flex flex-col '>
+      <div className='w-full phone:w-full phone:h-[60px] phone:flex phone:items-center phone:justify-center  h-[100px] flex items-center justify-center  '>
+        <h1 className='text-5xl phone:text-2xl font-bold'> Our Serives</h1>
       </div>
-      <div className='w-full h-[90vh]  flex flex-wrap items-center justify-evenly  '>
-      <div className='w-[27%] h-[220px] hover:bg-red-400 cursor-pointer hover:translate-x-3 hover:opacity-70 bg-white shadow-lg shadow-black rounded-2xl flex flex-col items-center justify-center  '>
-      <i class="fa-solid fa-signal text-4xl hover:text-emerald-700  text-orange-500  "></i>
-      <h1 className='text-2xl font-bold'>Marketing Services</h1>
-      <span className=' text-xl text-slate-500  '>Aliquam ut turpis nec ante</span>
-      <span className=' text-xl text-slate-500  '>pharetra ornare. Integer ac ex non </span>
-      <span className=' text-xl text-slate-500  '>nisl eleifend dapibus nec quis arcu.</span>
+      <div className='w-full h-[90vh] phone:w-full phone:h-[90vh]  phone:flex phone:flex-wrap phone:items-center phone:justify-evenly  flex flex-wrap items-center justify-evenly  '>
+      <div className='w-[27%] phone:w-[40%] phone:h-[180px] phone:hover:bg-red-200 phone:cursor-pointer phone:flex phone:items-center phone:justify-center phone:hover:w-[41%] phone:hover:h-[182px] phone:hover:opacity-70  h-[220px] hover:bg-red-200 cursor-pointer hover:w-[28%] hover:h-[225px] hover:opacity-70 bg-white shadow-lg shadow-black rounded-2xl flex flex-col items-center justify-center  '>
+      <i class="fa-solid fa-signal text-4xl phone:text-2xl hover:text-emerald-700  text-orange-500  "></i>
+      <h1 className='text-2xl phone:text-[12px] font-bold'>Marketing Services</h1>
+      <span className=' text-xl phone:text-[10px] text-slate-500  '>Aliquam ut turpis nec ante</span>
+      <span className=' text-xl phone:text-[10px] text-slate-500  '>pharetra ornare. Integer ac ex  </span>
+      <span className=' text-xl phone:text-[10px] text-slate-500  '>nisl eleifend dapibus nec quis .</span>
       </div>
-      <div className='w-[27%] h-[220px] hover:bg-red-400 cursor-pointer hover:translate-x-3 hover:opacity-70 bg-white shadow-lg shadow-black rounded-2xl flex flex-col items-center justify-center  '>
-      <i class="fa-solid fa-laptop text-4xl hover:text-emerald-700  text-orange-500 "></i>
-      <h1 className='text-2xl font-bold'>Web App</h1>
-      <h1 className='text-2xl font-bold'>Development</h1>
-      <span className=' text-xl text-slate-500  '>Aliquam ut turpis nec ante</span>
-      <span className=' text-xl text-slate-500  '>pharetra ornare. Integer ac ex non </span>
-      <span className=' text-xl text-slate-500  '>nisl eleifend dapibus nec quis arcu.</span>
+      <div className='w-[27%] h-[220px] phone:w-[40%] phone:h-[180px] phone:hover:bg-red-200 phone:cursor-pointer phone:flex phone:items-center phone:justify-center phone:hover:w-[41%] phone:hover:h-[182px] phone:hover:opacity-70 hover:bg-red-200 cursor-pointer hover:w-[28%] hover:h-[225px] hover:opacity-70 bg-white shadow-lg shadow-black rounded-2xl flex flex-col items-center justify-center  '>
+      <i class="fa-solid fa-laptop text-4xl phone:text-2xl hover:text-emerald-700  text-orange-500 "></i>
+      <h1 className='text-2xl phone:text-[12px] font-bold'>Web App</h1>
+      <h1 className='text-2xl phone:text-[12px] font-bold'>Development</h1>
+      <span className=' text-xl phone:text-[10px] text-slate-500  '>Aliquam ut turpis nec ante</span>
+      <span className=' text-xl phone:text-[10px] text-slate-500  '>pharetra ornare. Integer ac ex  </span>
+      <span className=' text-xl phone:text-[10px] text-slate-500  '>nisl eleifend dapibus nec quis .</span>
       </div>
-      <div className='w-[27%] h-[220px] hover:bg-red-400 cursor-pointer hover:translate-x-3 hover:opacity-70 bg-white shadow-lg shadow-black rounded-2xl flex flex-col items-center justify-center  '>
-      <i class="fa-solid fa-chart-line text-4xl hover:text-emerald-700  text-orange-500 "></i>
-      <h1 className='text-2xl font-bold'>24/7 Call Center</h1>
-      <h1 className='text-2xl font-bold'>Service</h1>
-      <span className=' text-xl text-slate-500  '>Aliquam ut turpis nec ante</span>
-      <span className=' text-xl text-slate-500  '>pharetra ornare. Integer ac ex non </span>
-      <span className=' text-xl text-slate-500  '>nisl eleifend dapibus nec quis arcu.</span>
+      <div className='w-[27%] h-[220px] phone:w-[40%] phone:h-[180px] phone:hover:bg-red-200 phone:cursor-pointer phone:flex phone:items-center phone:justify-center phone:hover:w-[41%] phone:hover:h-[182px] phone:hover:opacity-70 hover:bg-red-200 cursor-pointer hover:w-[28%] hover:h-[225px] hover:opacity-70 bg-white shadow-lg shadow-black rounded-2xl flex flex-col items-center justify-center  '>
+      <i class="fa-solid fa-chart-line text-4xl phone:text-2xl hover:text-emerald-700  text-orange-500 "></i>
+      <h1 className='text-2xl phone:text-[12px] font-bold'>24/7 Call Center</h1>
+      <h1 className='text-2xl phone:text-[12px] font-bold'>Service</h1>
+      <span className=' text-xl phone:text-[10px] text-slate-500  '>Aliquam ut turpis nec ante</span>
+      <span className=' text-xl phone:text-[10px] text-slate-500  '>pharetra ornare. Integer ac ex </span>
+      <span className=' text-xl phone:text-[10px] text-slate-500  '>nisl eleifend dapibus nec quis .</span>
       </div>
-      <div className='w-[27%] h-[220px] hover:bg-red-400 cursor-pointer hover:translate-x-3 hover:opacity-70 bg-white shadow-lg shadow-black rounded-2xl flex flex-col items-center justify-center  '>
-      <i class="fa-solid fa-envelope-circle-check text-4xl hover:text-emerald-700  text-orange-500  "></i>
-      <h1 className='text-2xl font-bold'>Social Media</h1>
-      <h1 className='text-2xl font-bold'>Marketing</h1>
-      <span className=' text-xl text-slate-500  '>Aliquam ut turpis nec ante</span>
-      <span className=' text-xl text-slate-500  '>pharetra ornare. Integer ac ex non </span>
-      <span className=' text-xl text-slate-500  '>nisl eleifend dapibus nec quis arcu.</span>
+      <div className='w-[27%] h-[220px] phone:w-[40%] phone:h-[180px] phone:hover:bg-red-200 phone:cursor-pointer phone:flex phone:items-center phone:justify-center phone:hover:w-[41%] phone:hover:h-[182px] phone:hover:opacity-70 hover:bg-red-200 cursor-pointer hover:w-[28%] hover:h-[225px] hover:opacity-70 bg-white shadow-lg shadow-black rounded-2xl flex flex-col items-center justify-center  '>
+      <i class="fa-solid fa-envelope-circle-check text-4xl phone:text-2xl hover:text-emerald-700  text-orange-500  "></i>
+      <h1 className='text-2x lphone:text-[12px] font-bold'>Social Media</h1>
+      <h1 className='text-2x lphone:text-[12px] font-bold'>Marketing</h1>
+      <span className=' text-xl phone:text-[10px] text-slate-500  '>Aliquam ut turpis nec ante</span>
+      <span className=' text-xl phone:text-[10px] text-slate-500  '>pharetra ornare. Integer ac ex  </span>
+      <span className=' text-xl phone:text-[10px] text-slate-500  '>nisl eleifend dapibus nec quis .</span>
       </div>
-      <div className='w-[27%] h-[220px] hover:bg-red-400 cursor-pointer hover:translate-x-3 hover:opacity-70 bg-white shadow-lg shadow-black rounded-2xl flex flex-col items-center justify-center  '>
-      <i class="fa-solid fa-signal text-4xl hover:text-emerald-700  text-orange-500  "></i>
-      <h1 className='text-2xl font-bold'>Corporate Business</h1>
-      <span className=' text-xl text-slate-500  '>Aliquam ut turpis nec ante</span>
-      <span className=' text-xl text-slate-500  '>pharetra ornare. Integer ac ex non </span>
-      <span className=' text-xl text-slate-500  '>nisl eleifend dapibus nec quis arcu.</span>
+      <div className='w-[27%] h-[220px] phone:w-[40%] phone:h-[180px] phone:hover:bg-red-200 phone:cursor-pointer phone:flex phone:items-center phone:justify-center phone:hover:w-[41%] phone:hover:h-[182px] phone:hover:opacity-70 hover:bg-red-200 cursor-pointer hover:w-[28%] hover:h-[225px] hover:opacity-70 bg-white shadow-lg shadow-black rounded-2xl flex flex-col items-center justify-center  '>
+      <i class="fa-solid fa-signal text-4xl phone:text-2xl hover:text-emerald-700  text-orange-500  "></i>
+      <h1 className='text-2xl phone:text-[12px] font-bold'>Corporate Business</h1>
+      <span className=' text-xl phone:text-[10px] text-slate-500  '>Aliquam ut turpis nec ante</span>
+      <span className=' text-xl phone:text-[10px] text-slate-500  '>pharetra ornare. Integer ac ex </span>
+      <span className=' text-xl phone:text-[10px] text-slate-500  '>nisl eleifend dapibus nec quis .</span>
       </div>
-      <div className='w-[27%] h-[220px] hover:bg-red-400 cursor-pointer hover:translate-x-3 hover:opacity-70 bg-white shadow-lg shadow-black rounded-2xl flex flex-col items-center justify-center  '>
-      <i class="fa-solid fa-pen text-4xl hover:text-emerald-700  text-orange-500  "></i>
-      <h1 className='text-2xl font-bold'>Creative Consulitancy</h1>
-      <span className=' text-xl text-slate-500  '>Aliquam ut turpis nec ante</span>
-      <span className=' text-xl text-slate-500  '>pharetra ornare. Integer ac ex non </span>
-      <span className=' text-xl text-slate-500  '>nisl eleifend dapibus nec quis arcu.</span>
+      <div className='w-[27%] h-[220px] phone:w-[40%] phone:h-[180px] phone:hover:bg-red-200 phone:cursor-pointer phone:flex phone:items-center phone:justify-center phone:hover:w-[41%] phone:hover:h-[182px] phone:hover:opacity-70 hover:bg-red-200 cursor-pointer hover:w-[28%] hover:h-[225px] hover:opacity-70 bg-white shadow-lg shadow-black rounded-2xl flex flex-col items-center justify-center  '>
+      <i class="fa-solid fa-pen text-4xl phone:text-2xl hover:text-emerald-700  text-orange-500  "></i>
+      <h1 className='text-2xl phone:text-[12px]  font-bold'>Creative Consulitancy</h1>
+      <span className=' text-xl phone:text-[10px] text-slate-500  '>Aliquam ut turpis nec ante</span>
+      <span className=' text-xl phone:text-[10px] text-slate-500  '>pharetra ornare. Integer ac ex </span>
+      <span className=' text-xl phone:text-[10px] text-slate-500  '>nisl eleifend dapibus nec quis .</span>
       </div>
       </div>
-      <div className='w-full h-[100px] flex items-center justify-center '>
+      <div className='w-full h-[100px] phone:w-full phone:h-[60px]  phone:items-center phone:justify-center flex items-center justify-center '>
 
-<button className='w-[25%] h-[60px] bg-green-500 rounded-2xl text-3xl font-bold text-white cursor-pointer hover:-translate-y-2 hover:bg-black hover:shadow-sm hover:shadow-white  ' > <a href="https://services-pink.vercel.app/"> Open Service </a>
+<button className='w-[25%] phone:w-[35%] phone:h-[50px] phone:text-xl h-[60px] bg-green-500 rounded-2xl text-3xl font-bold text-white cursor-pointer hover:-translate-y-2 hover:bg-black hover:shadow-sm hover:shadow-white  ' > <a href="https://services-pink.vercel.app/"> Open Service </a>
  </button>
       </div>
     </div>
-    <div id='pricing' className='w-full h-[70vh] bg-slate-500 flex flex-col items-center justify-center  '>
+    <div id='pricing' className='w-full phone:flex h-[70vh] bg-slate-400 flex flex-col items-center justify-center  '>
     <div className='w-full h-[20vh] flex items-center justify-center text-5xl  font-bold '><h1>Pricing</h1></div>
     
     <div class="w-full p-4 text-center  border-gray-200 rounded-lg shadow sm:p-8  dark:border-gray-700">
@@ -191,8 +196,7 @@ const Main1 = () => {
     <div class="md:flex md:justify-between">
     <div class="mb-6 md:mb-0">
     <a href="https://flowbite.com/" class="flex items-center">
-    <img src="https://flowbite.com/docs/images/logo.svg" class="h-8 mr-3" alt="FlowBite Logo" />
-    <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Flowbite</span>
+          <span class="self-center text-2xl font-semibold whitespace-nowrap dark:text-white">Website</span>
     </a>
     </div>
     <div class="grid grid-cols-2 gap-8 sm:gap-6 sm:grid-cols-3">
